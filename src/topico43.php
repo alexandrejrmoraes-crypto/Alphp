@@ -22,7 +22,23 @@ var_dump($j);
 echo "<br>";
 var_dump($e);
 echo"<hr>";
-
+$g=50;
+$h=120;
+$i=200;
+$j=($c<$e)&& ($e>1000) ? "Verdadeiro" : "Falso";
+$j=(($g<=$h) or ($g<=$i));// true
+$k=(!($g<=$h) ||  !($g>=$i));//
+echo "j = $j<br>e = $e";
+var_dump($j);
+echo "<br>";
+var_dump($e);
+echo"<hr>";
+$a=50;
+$b=120;
+$c=200;
+$d=($a<=$b) ? "Verdadeiro" : "Falso";
+$e=($a>=$c) ? "Verdadeiro" : "Falso";
+echo "d = $d<br>e = $e";
 /*
 =   atribuição/receber
 ==  igualdade
