@@ -39,6 +39,7 @@ $c=200;
 $d=($a<=$b) ? "Verdadeiro" : "Falso";
 $e=($a>=$c) ? "Verdadeiro" : "Falso";
 echo "d = $d<br>e = $e";
+$e=($a<=$c)?"Verdadeiro":"Falso";//
 /*
 =   atribuição/receber
 ==  igualdade
